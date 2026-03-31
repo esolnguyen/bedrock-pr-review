@@ -1,0 +1,10 @@
+# Lambda-specific requirements
+# These will be packaged with the Lambda deployment
+
+boto3>=1.34.0
+PyGithub>=2.1.1
+jira>=3.5.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+bandit>=1.7.5

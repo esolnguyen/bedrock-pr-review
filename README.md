@@ -3,8 +3,8 @@
 AI-powered code review agent built on AWS Bedrock (Claude). Automatically reviews pull requests for security vulnerabilities, code quality, and requirements coverage, then posts structured feedback as PR comments.
 
 Supports two provider modes:
-- **GitHub + Jira** — GitHub PRs with Jira ticket linking
-- **Azure DevOps** — Azure Repos PRs with Azure Boards work items (via MCP proxy)
+- **GitHub + Jira** - GitHub PRs with Jira ticket linking
+- **Azure DevOps** - Azure Repos PRs with Azure Boards work items (via MCP proxy)
 
 ## Architecture
 
@@ -42,10 +42,10 @@ lambda/
 
 ## What It Reviews
 
-- **Security** — OWASP Top 10: SQL injection, hardcoded secrets, command injection, XSS, path traversal, weak crypto, SSRF, etc.
-- **Code Quality** — complexity, error handling, naming, unused imports, duplication, performance (N+1 queries)
-- **Requirements Coverage** — maps PR changes to linked work items/tickets, reports coverage percentage
-- **Inline Comments** — generates file-specific comments on lines with bugs, security issues, or missing error handling
+- **Security** - OWASP Top 10: SQL injection, hardcoded secrets, command injection, XSS, path traversal, weak crypto, SSRF, etc.
+- **Code Quality** - complexity, error handling, naming, unused imports, duplication, performance (N+1 queries)
+- **Requirements Coverage** - maps PR changes to linked work items/tickets, reports coverage percentage
+- **Inline Comments** - generates file-specific comments on lines with bugs, security issues, or missing error handling
 
 ## Setup
 
